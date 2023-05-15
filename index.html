@@ -20,7 +20,7 @@
       <div class="page-header__logo">
         <img src="img/logo.svg" width="20" height="20" alt="Логотип Callium">
       </div>
-      <nav class="site-nav site-nav--closed site-nav--no-js page-header__site-nav">
+      <nav id="menu" class="site-nav site-nav--closed site-nav--no-js page-header__site-nav">
         <ul class="site-nav__list">
           <li class="site-nav__item"><a href="#">Мебель</a></li>
           <li class="site-nav__item"><a href="#">Освещение</a></li>
@@ -29,6 +29,9 @@
         <button class="site-nav__button" type="button" aria-label="Показать/Скрыть меню"></button>
       </nav>
       <ul class="user-nav page-header__user-nav">
+        <li class="user-nav__item user-nav__item--burger">
+          <a class="burger-menu" href="#" aria-label="Бургер меню">х</a>
+        </li>
         <li class="user-nav__item user-nav__item--search">
           <a href="#" aria-label="Поиск по сайту"><span class="visually-hidden">Поиск по сайту</span></a>
         </li>
@@ -104,6 +107,7 @@
 
   <script src="js/vendor/swiper.js"></script>
   <script src="js/lib/slider-main.js"></script>
+  <script src="js/lib/script.js"></script>
   
 </body>
 

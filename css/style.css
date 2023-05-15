@@ -888,3 +888,22 @@ img {
   }
 }
 
+
+/* бургер меню */
+.burger-menu {
+  display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+  .burger-menu {
+    display: inline-flex !important;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  #menu.active {
+    display: block;
+  }
+}
