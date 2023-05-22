@@ -1,0 +1,8 @@
+:root {
+    --swiper-theme-color: #B3B3B3;
+	--swiper-navigation-color: #B3B3B3;
+	--swiper-background-color: #FFFFFF; 
+
+	--swiper-navigation-size: 14px;
+	--swiper-background-size: 24px;
+}
