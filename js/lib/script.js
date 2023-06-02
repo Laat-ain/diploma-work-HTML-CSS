@@ -7,8 +7,6 @@ burger.addEventListener('click', () => {
 
 /* swiper */
 var swiper = new Swiper(".reviewsSwiper", {
-	/* sliderPerView: 1,
-	spaceBetween: 30,  */
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
@@ -18,8 +16,6 @@ var swiper = new Swiper(".reviewsSwiper", {
 		prevEl: ".swiper-button-prev",
 	},
 });
-
-
 
 /* tabs */
 document.addEventListener('DOMContentLoaded', () => {
