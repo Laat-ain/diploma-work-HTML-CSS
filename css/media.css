@@ -393,21 +393,18 @@
 
 /* section new-product */
 
-/* max-width: 568px;
-max-height: 614px; */
-
-@media (max-width: 1025px) {	
-	.new-product{
+@media (max-width: 1025px) {
+	.new-product {
 		display: block;
 	}
-	
+
 	.flex-container-left {
 		position: relative;
 		padding-top: 80px;
 		padding-bottom: 40px;
 	}
-	
-	.title-new-product{
+
+	.title-new-product {
 		position: absolute;
 		top: 0;
 		left: 5%;
@@ -427,8 +424,8 @@ max-height: 614px; */
 	}
 }
 
-@media (max-width: 769px){
-	.new-product .flex-container-left{
+@media (max-width: 769px) {
+	.new-product .flex-container-left {
 		flex-wrap: nowrap;
 	}
 
@@ -455,12 +452,12 @@ max-height: 614px; */
 	}
 }
 
-@media (max-width: 426px){
+@media (max-width: 426px) {
 	.flex-container-left {
 		padding-bottom: 30px;
 	}
 
-	.new-product .flex-container-left{
+	.new-product .flex-container-left {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -470,7 +467,7 @@ max-height: 614px; */
 		height: 340px;
 	}
 
-	.new-product .container-left a:nth-of-type(-n+2){
+	.new-product .container-left a:nth-of-type(-n+2) {
 		margin-bottom: 30px;
 	}
 
@@ -479,15 +476,17 @@ max-height: 614px; */
 	}
 }
 
-@media (max-width: 376px){
-	.new-product .container-left a, 
+@media (max-width: 376px) {
+
+	.new-product .container-left a,
 	.new-product .container-right a {
 		width: 325px;
 	}
 }
 
-@media (max-width: 321px){
-	.new-product .container-left a, 
+@media (max-width: 321px) {
+
+	.new-product .container-left a,
 	.new-product .container-right a {
 		width: 285px;
 	}
@@ -500,6 +499,7 @@ max-height: 614px; */
 		height: 210px;
 	}
 }
+
 
 /* section reviews */
 
@@ -540,8 +540,52 @@ max-height: 614px; */
 	}
 }
 
+
 /* section discounts */
-/* Адаптивность будет тестироваться на экранах: 1920px, 1440px, 1024px, 768px, 425px, 375px, 320px. */
+
+@media (max-width: 426px) {
+	.tabs__btn {
+		margin-right: 24px;
+	}
+
+	.info-discount-card {
+		padding-left: 15px;
+	}
+
+	.discounts .container {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.discounts::before {
+		right: 46%;
+	}
+}
+
+@media (max-width: 376px) {
+	.discounts .container {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.tabs__btn {
+		margin-right: 37px;
+	}
+
+}
+
+@media (max-width: 321px) {
+	.discounts .container {
+		padding-left: 30px;
+		padding-right: 65px;
+	}
+
+	.tabs__btn {
+		margin-right: 25px;
+	}
+
+}
+
 
 /* footer */
 @media (max-width: 1025px) {
