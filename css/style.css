@@ -384,6 +384,10 @@ img {
 	justify-content: space-evenly;
 }
 
+.title-new-product{
+	align-self: center;
+}
+
 .new-product .container-left a {
 	width: 270px;
 	height: 289px;
@@ -397,7 +401,10 @@ img {
 .new-product .container-right a {
 	width: 570px;
 	height: 614px;
+	text-align: center;
 }
+
+
 
 .container-right img {
 	height: 466px;
