@@ -5,7 +5,8 @@ burger.addEventListener('click', () => {
 	menuList.classList.toggle('active');
 })
 
-/* swiper */
+
+/* swiper  reviews container*/
 var swiper = new Swiper(".reviewsSwiper", {
 	pagination: {
 		el: ".swiper-pagination",
@@ -17,34 +18,35 @@ var swiper = new Swiper(".reviewsSwiper", {
 	},
 });
 
+
 /* swiper discounts container*/
 var swiper_discounts = new Swiper(".discounts_slider", {
 	spaceBetween: 31,
 	pagination: {
-	  el: ".swiper-pagination",
-	  type: "progressbar", 
-	  clickable: true,
+		el: ".swiper-pagination",
+		type: "progressbar",
+		clickable: true,
 	},
 	breakpoints: {
-		320:{
+		320: {
 			slidesPerView: 1,
 		},
-		375:{
+		375: {
 			slidesPerView: 1,
 		},
-		425:{
+		425: {
 			slidesPerView: 2,
 		},
-		768:{
+		768: {
 			slidesPerView: 3,
 		},
-		1024:{
+		1024: {
 			slidesPerView: 4,
 		},
-		1440:{
+		1440: {
 			slidesPerView: 5,
 		},
-		1920:{
+		1920: {
 			slidesPerView: 5,
 		},
 	}
