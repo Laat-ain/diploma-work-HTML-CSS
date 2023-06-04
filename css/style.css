@@ -50,8 +50,6 @@ img {
 	clip-path: inset(100%);
 }
 
-
-/* header */
 .page-header {
 	overflow: hidden;
 }
@@ -103,7 +101,7 @@ img {
 .site-nav__item a {
 	font-size: 14px;
 	line-height: 19px;
-	color: #303032;
+	color: var(--text-color);
 	text-transform: uppercase;
 	letter-spacing: .13em;
 }
@@ -128,10 +126,6 @@ img {
 	margin: 0 10px 0 0;
 	padding: 0;
 	list-style: none;
-}
-
-.user-nav__item {
-	margin-left: 22px;
 }
 
 .user-nav__item a {
@@ -164,8 +158,25 @@ img {
 	background-position: center;
 }
 
+.user-nav__item--cart a {
+	margin-left: 22px;
+}
 
-/* main */
+.user-nav__item--burger{
+	display: none;
+}
+
+.user-nav__item--burger a {
+	width: 26px;
+	height: 26px;
+	margin-left: 22px;
+}
+
+.user-nav__item--burger img {
+	width: 26px;
+	height: 26px;
+}
+
 .page-main {
 	overflow: hidden;
 }
@@ -186,8 +197,6 @@ img {
 	z-index: -1;
 }
 
-
-/* swiper */
 .main-screen .swiper-pagination {
 	top: 216px;
 	left: auto;
@@ -281,7 +290,7 @@ img {
 	line-height: 83px;
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
-	color: #303032;
+	color: var(--text-color);
 }
 
 .product--slider .product__info h3 {
@@ -290,7 +299,7 @@ img {
 	font-weight: 400;
 	font-size: 20px;
 	line-height: 27px;
-	color: #303032;
+	color: var(--text-color);
 }
 
 .product--slider .product__info p {
@@ -299,7 +308,7 @@ img {
 	font-weight: 500;
 	font-size: 30px;
 	line-height: 41px;
-	color: #303032;
+	color: var(--text-color);
 }
 
 .product--slider .product__info p span {
@@ -349,10 +358,6 @@ img {
 	margin-top: -123px;
 }
 
-/* бургер меню */
-.burger-menu {
-	display: none !important;
-}
 
 /* section new-product */
 .new-product {
@@ -400,8 +405,6 @@ img {
 	text-align: center;
 }
 
-
-
 .container-right img {
 	height: 466px;
 }
@@ -420,7 +423,6 @@ img {
 .new-product .container-right a:hover {
 	background-color: #FAECE9;
 }
-
 
 #all-new-product-link {
 	background: none;
@@ -452,6 +454,7 @@ img {
 #all-new-product-link:hover:after {
 	opacity: 0.8;
 }
+
 
 /* reviews */
 .reviews {
@@ -497,7 +500,7 @@ img {
 }
 
 .buyer-feedback h3 {
-	font: var(--оpen-sans-700);
+	font: var(--оpen-sans-400);
 	color: var(--buyer-feedback-text-color);
 	margin-bottom: 6px;
 }
@@ -654,8 +657,6 @@ img {
 
 /* не смогла никак иначе опустить swiper-pagination */
 .discounts_slider .swiper-pagination {
-    /* position: absolute; */
-    /* bottom: 0; */
     top: 413px;
 }
 
@@ -663,12 +664,6 @@ img {
 	left: 0;
 	bottom: 0;
 }
-
-
-
-
-
-
 
 
 /* footer */

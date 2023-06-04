@@ -1,5 +1,7 @@
 /* Адаптивность будет тестироваться на экранах: 1920px, 1440px, 1024px, 768px, 425px, 375px, 320px. */
 
+/* Было изначально в файле */
+/* Начало */
 @media (max-width: 767px) {
 	.container {
 		padding-left: 16px;
@@ -10,9 +12,6 @@
 		overflow: hidden;
 	}
 }
-
-/* header */
-/* не моё */
 
 @media (max-width: 1023px) {
 	.page-header__wrapper {
@@ -173,14 +172,6 @@
 		margin-right: 0;
 	}
 
-	.user-nav__item {
-		margin-left: 19px;
-	}
-
-	.user-nav__item--search {
-		margin-top: 2px;
-	}
-
 	.user-nav__item--search a {
 		width: 26px;
 		height: 26px;
@@ -194,8 +185,6 @@
 		background-size: 28px 24px;
 	}
 }
-
-/* main */
 
 @media (max-width: 1023px) {
 	.main-screen .swiper-slide {
@@ -372,12 +361,26 @@
 	}
 }
 
-/* бургер меню */
-/* посмотреть */
+/* конец */
 
-@media screen and (max-width: 768px) {
-	.burger-menu {
-		display: inline-flex !important;
+
+/* бургер меню */
+
+@media (max-width: 1025px) {
+	.page-header__site-nav {
+		margin-left: 80px;
+	}
+}
+
+@media (max-width: 769px) {
+	.page-header__site-nav {
+		margin-left: 35px;
+	}
+}
+
+@media (max-width:426px) {
+	.user-nav__item--burger {
+		display: inline-flex;
 	}
 
 	#menu {
@@ -386,10 +389,15 @@
 
 	#menu.active {
 		display: block;
+		margin-left: 0;
+		position: absolute;
+		z-index: 2;
+		background: #ffffff;
+		;
+		top: 50px;
+		right: 0;
 	}
 }
-
-/* моё */
 
 /* section new-product */
 
